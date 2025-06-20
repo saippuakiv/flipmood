@@ -1,8 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlipMood
+
+A simple mood-based entertainment recommendation app that suggests movies and music through a card interface.
+
+## Features
+
+- 🎬 **Movie Recommendations**: Get movie suggestions from TMDB
+- 🎵 **Music Player**: Display Spotify embed player for music tracks
+- 🃏 **Card Interface**: Browse recommendations with card layout
+- 🌈 **Aurora Background**: Dynamic animated background with Tailwind CSS
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **Animations**: Aurora background effects
+- **APIs**:
+  - The Movie Database (TMDB) for movie data
+  - Spotify for music track embedding
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/saippuakiv/flipmood.git
+cd flipmood
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Set up environment variables:
+
+```bash
+cp .env.example .env.local
+```
+
+4. Add your API keys to `.env.local`:
+
+```env
+TMDB_API_KEY=your_tmdb_api_key_here
+SPOTIFY_CLIENT_ID=your_spotify_client_id_here
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret_here
+```
+
+### Getting API Keys
+
+- **TMDB API Key**: Sign up at [The Movie Database](https://www.themoviedb.org/settings/api)
+- **Spotify API Keys**:
+  1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+  2. Create a new app
+  3. Get your Client ID and Client Secret
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +77,18 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Enter Your Mood**: Describe what kind of entertainment you're looking for
+2. **Browse Cards**: View movie recommendations and listen to music tracks via Spotify embed
 
-## Learn More
+## Acknowledgments
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [The Movie Database (TMDB)](https://www.themoviedb.org/) for movie data
+- [Spotify](https://spotify.com/) for music track embedding
+- [Next.js](https://nextjs.org/) for the framework
+- [Tailwind CSS](https://tailwindcss.com/) for styling

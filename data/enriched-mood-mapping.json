@@ -1,0 +1,397 @@
+{
+  "happy": [
+    {
+      "type": "song",
+      "title": "Tieduprightnow",
+      "subtitle": "Parcels",
+      "reason": "A catchy disco-pop song full of joy and motion.",
+      "imageUrl": "https://placehold.co/300x200?text=Tieduprightnow",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Spring",
+      "subtitle": "Saint Etienne",
+      "reason": "Breezy indie pop that captures the optimism of new beginnings.",
+      "imageUrl": "https://placehold.co/300x200?text=Spring",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Carmen",
+      "subtitle": "Olivia Dean",
+      "reason": "Soulful R&B with infectious energy and uplifting vocals.",
+      "imageUrl": "https://placehold.co/300x200?text=Carmen",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Part Of The Band",
+      "subtitle": "The 1975",
+      "reason": "Anthemic indie rock that celebrates belonging and connection.",
+      "imageUrl": "https://placehold.co/300x200?text=Part%20Of%20The%20Band",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "C'mon C'mon",
+      "subtitle": "Mike Mills",
+      "year": 2021,
+      "reason": "A gentle black-and-white story that radiates warmth and emotional honesty.",
+      "imageUrl": "https://placehold.co/300x200?text=C'mon%20C'mon"
+    },
+    {
+      "type": "movie",
+      "title": "Frances Ha",
+      "subtitle": "Noah Baumbach",
+      "year": 2013,
+      "reason": "A joyful portrait of friendship and artistic ambition, full of awkward charm.",
+      "imageUrl": "https://placehold.co/300x200?text=Frances%20Ha"
+    },
+    {
+      "type": "movie",
+      "title": "Verdens verste menneske",
+      "subtitle": "Joachim Trier",
+      "year": 2021,
+      "reason": "A vibrant, witty, and bittersweet take on love and identity in your late 20s.",
+      "imageUrl": "https://placehold.co/300x200?text=Verdens%20verste%20menneske"
+    },
+    {
+      "type": "movie",
+      "title": "Licorice Pizza",
+      "subtitle": "Paul Thomas Anderson",
+      "year": 2021,
+      "reason": "A sunny, nostalgic coming-of-age story set in 1970s San Fernando Valley.",
+      "imageUrl": "https://placehold.co/300x200?text=Licorice%20Pizza"
+    }
+  ],
+  "relaxing": [
+    {
+      "type": "song",
+      "title": "Misread",
+      "subtitle": "Kings of Convenience",
+      "reason": "Gentle acoustic folk-pop that soothes with its delicate harmonies.",
+      "imageUrl": "https://placehold.co/300x200?text=Misread",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Posing In Bondage",
+      "subtitle": "Japanese Breakfast",
+      "reason": "Scientifically proven to reduce stress and anxiety.",
+      "imageUrl": "https://placehold.co/300x200?text=Posing%20In%20Bondage",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Sanctified",
+      "subtitle": "System Olympia, Working Men's Club",
+      "reason": "Dreamy collaboration that flows like a peaceful river.",
+      "imageUrl": "https://placehold.co/300x200?text=Sanctified",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Like I Say(I runaway)",
+      "subtitle": "Nilufer Yanya",
+      "reason": "Introspective indie with a hypnotic groove that melts tension away.",
+      "imageUrl": "https://placehold.co/300x200?text=Like%20I%20Say(I%20runaway)",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "La Chimera",
+      "subtitle": "Alice Rohrwacher",
+      "year": 2023,
+      "reason": "A dreamlike journey between the living and the dead, slow and poetic.",
+      "imageUrl": "https://placehold.co/300x200?text=La%20Chimera"
+    },
+    {
+      "type": "movie",
+      "title": "Tu man nieko neprimeni",
+      "subtitle": "Marija Kavtaradze",
+      "year": 2023,
+      "reason": "A tender exploration of intimacy and physical boundaries with patient pacing.",
+      "imageUrl": "https://placehold.co/300x200?text=Tu%20man%20nieko%20neprimeni"
+    },
+    {
+      "type": "movie",
+      "title": "Tokyo Ride",
+      "subtitle": "Louise Lemoine",
+      "year": 2020,
+      "reason": "A meditative taxi journey through Tokyo that unfolds like a gentle meditation.",
+      "imageUrl": "https://placehold.co/300x200?text=Tokyo%20Ride"
+    }
+  ],
+  "rainy": [
+    {
+      "type": "song",
+      "title": "Myth",
+      "subtitle": "Beach House",
+      "reason": "Emotional and haunting – perfect for rainy days.",
+      "imageUrl": "https://placehold.co/300x200?text=Myth",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Should Have Known Better",
+      "subtitle": "Sufjan Stevens",
+      "reason": "Melancholic folk that perfectly captures the weight of regret and longing.",
+      "imageUrl": "https://placehold.co/300x200?text=Should%20Have%20Known%20Better",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Aaaannnnteeeeennnaaaaaa",
+      "subtitle": "HYUKOH, Sunset Rollercoaster",
+      "reason": "Dreamy collaboration that feels like watching rain through a window.",
+      "imageUrl": "https://placehold.co/300x200?text=Aaaannnnteeeeennnaaaaaa",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Hello",
+      "subtitle": "Hania Rani",
+      "reason": "Minimalist piano that echoes like raindrops on glass.",
+      "imageUrl": "https://placehold.co/300x200?text=Hello",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "Anatomie d'une chute",
+      "subtitle": "Justine Triet",
+      "year": 2023,
+      "reason": "A chilling courtroom drama perfect for introspective rainy afternoons.",
+      "imageUrl": "https://placehold.co/300x200?text=Anatomie%20d'une%20chute"
+    },
+    {
+      "type": "movie",
+      "title": "Fabian oder Der Gang vor die Hunde",
+      "subtitle": "Dominik Graf",
+      "year": 2021,
+      "reason": "A melancholic portrait of Weimar-era Berlin that mirrors stormy moods.",
+      "imageUrl": "https://placehold.co/300x200?text=Fabian%20oder%20Der%20Gang%20vor%20die%20Hunde"
+    },
+    {
+      "type": "movie",
+      "title": "Kopfplatzen",
+      "subtitle": "Savas Ceviz",
+      "year": 2019,
+      "reason": "Raw and emotional drama that captures the intensity of inner storms.",
+      "imageUrl": "https://placehold.co/300x200?text=Kopfplatzen"
+    }
+  ],
+  "calm": [
+    {
+      "type": "song",
+      "title": "There's a Rhythm",
+      "subtitle": "Bon Iver",
+      "reason": "A hushed, introspective track that flows like a deep breath on a quiet morning.",
+      "imageUrl": "https://placehold.co/300x200?text=There's%20a%20Rhythm",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Bulbo",
+      "subtitle": "FEATHERED SUN, Jo.Ke, Chris Schwarzwalder",
+      "reason": "Ambient collaboration that creates space for peaceful contemplation.",
+      "imageUrl": "https://placehold.co/300x200?text=Bulbo",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Nausicaa(Love Will Be Revealed)",
+      "subtitle": "Cameron Winter",
+      "reason": "Gentle indie that unfolds slowly like morning mist.",
+      "imageUrl": "https://placehold.co/300x200?text=Nausicaa(Love%20Will%20Be%20Revealed)",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "Drive My Car",
+      "subtitle": "Ryusuke Hamaguchi",
+      "year": 2021,
+      "reason": "A slow-burning, meditative journey about grief, language, and human connection.",
+      "imageUrl": "https://placehold.co/300x200?text=Drive%20My%20Car"
+    },
+    {
+      "type": "movie",
+      "title": "Roter Himmel",
+      "subtitle": "Christian Petzold",
+      "year": 2023,
+      "reason": "A slow-burning summer tale that feels suspended between reality and myth.",
+      "imageUrl": "https://placehold.co/300x200?text=Roter%20Himmel"
+    },
+    {
+      "type": "movie",
+      "title": "Aftersun",
+      "subtitle": "Charlotte Wells",
+      "year": 2022,
+      "reason": "A quietly devastating memory piece that unfolds like a gentle wave.",
+      "imageUrl": "https://placehold.co/300x200?text=Aftersun"
+    },
+    {
+      "type": "movie",
+      "title": "Paterson",
+      "subtitle": "Jim Jarmusch",
+      "year": 2016,
+      "reason": "A meditative portrait of daily routine that finds beauty in the ordinary.",
+      "imageUrl": "https://placehold.co/300x200?text=Paterson"
+    }
+  ],
+  "focus": [
+    {
+      "type": "song",
+      "title": "Intro",
+      "subtitle": "The xx",
+      "reason": "Minimalist soundscape great for concentration.",
+      "imageUrl": "https://placehold.co/300x200?text=Intro",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Cashew - Just Piano Version",
+      "subtitle": "FKJ",
+      "reason": "Clean piano loops that create the perfect backdrop for deep work.",
+      "imageUrl": "https://placehold.co/300x200?text=Cashew%20-%20Just%20Piano%20Version",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Weak In Your Light",
+      "subtitle": "Nation of Language",
+      "reason": "Steady synth-pop rhythm that maintains focus without distraction.",
+      "imageUrl": "https://placehold.co/300x200?text=Weak%20In%20Your%20Light",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "A Real Pain",
+      "subtitle": "Jesse Eisenberg",
+      "year": 2024,
+      "reason": "A meditative narrative about loss and family that invites quiet concentration.",
+      "imageUrl": "https://placehold.co/300x200?text=A%20Real%20Pain"
+    },
+    {
+      "type": "movie",
+      "title": "Past Lives",
+      "subtitle": "Celine Song",
+      "year": 2023,
+      "reason": "A delicate story about paths not taken, evoking quiet reflection and presence.",
+      "imageUrl": "https://placehold.co/300x200?text=Past%20Lives"
+    },
+    {
+      "type": "movie",
+      "title": "버닝",
+      "subtitle": "Lee Chang-dong",
+      "year": 2018,
+      "reason": "A mysterious slow burn that demands and rewards careful attention.",
+      "imageUrl": "https://placehold.co/300x200?text=%EB%B2%84%EB%8B%9D"
+    },
+    {
+      "type": "movie",
+      "title": "Nomadland",
+      "subtitle": "Chloé Zhao",
+      "year": 2021,
+      "reason": "A contemplative journey that encourages mindful observation of life.",
+      "imageUrl": "https://placehold.co/300x200?text=Nomadland"
+    }
+  ],
+  "breeze": [
+    {
+      "type": "song",
+      "title": "Main",
+      "subtitle": "Hi'Spec",
+      "reason": "Lo-fi electronic that drifts like a warm summer breeze.",
+      "imageUrl": "https://placehold.co/300x200?text=Main",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Chosen",
+      "subtitle": "Blood Orange",
+      "reason": "Smooth R&B that flows effortlessly like evening air.",
+      "imageUrl": "https://placehold.co/300x200?text=Chosen",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Melatonin",
+      "subtitle": "Carter Vail",
+      "reason": "Dreamy and mellow tune for late-night unwinding.",
+      "imageUrl": "https://placehold.co/300x200?text=Melatonin",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "The Boy - Live at Bush Hall",
+      "subtitle": "Black Country, New Road",
+      "reason": "Tender and theatrical, capturing fragile emotions live.",
+      "imageUrl": "https://placehold.co/300x200?text=The%20Boy%20-%20Live%20at%20Bush%20Hall",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "song",
+      "title": "Cherry Blossom Girl",
+      "subtitle": "Air",
+      "reason": "Dreamy and romantic, perfect for a quiet afternoon.",
+      "imageUrl": "https://placehold.co/300x200?text=Cherry%20Blossom%20Girl",
+      "previewUrl": null,
+      "spotifyId": null
+    },
+    {
+      "type": "movie",
+      "title": "Happyend",
+      "subtitle": "Neo Sora",
+      "year": 2024,
+      "reason": "A gentle exploration of youth and connection in contemporary Japan.",
+      "imageUrl": "https://placehold.co/300x200?text=Happyend"
+    },
+    {
+      "type": "movie",
+      "title": "Hors normes",
+      "subtitle": "Olivier Nakache",
+      "year": 2019,
+      "reason": "A heartwarming story about care and humanity that flows with gentle optimism.",
+      "imageUrl": "https://placehold.co/300x200?text=Hors%20normes"
+    },
+    {
+      "type": "movie",
+      "title": "悪は存在しない",
+      "subtitle": "Ryūsuke Hamaguchi",
+      "year": 2023,
+      "reason": "A contemplative tale that moves like wind through trees, quiet and profound.",
+      "imageUrl": "https://placehold.co/300x200?text=%E6%82%AA%E3%81%AF%E5%AD%98%E5%9C%A8%E3%81%97%E3%81%AA%E3%81%84"
+    },
+    {
+      "type": "movie",
+      "title": "Perdrix",
+      "subtitle": "Erwan Le Duc",
+      "year": 2019,
+      "reason": "An eccentric French comedy that breezes through absurd situations with charm.",
+      "imageUrl": "https://placehold.co/300x200?text=Perdrix"
+    }
+  ]
+}
