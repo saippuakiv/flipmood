@@ -81,6 +81,21 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
 
+## Data Setup
+
+The app uses pre-processed recommendation data.
+Current Setup: The existing data/enriched-mood-mapping.json was generated from the current data/raw-recommendations.ts as an example.
+To customize with your own data:
+
+Add your recommendations: Edit data/raw-recommendations.ts to add your own movie and music data
+Generate processed data: Run the enrichment script to create the final data file:
+
+```bash
+npx tsx scripts/enrich-recommendations.ts
+```
+
+This will generate a new data/enriched-mood-mapping.json used by the app
+
 ## Usage
 
 1. **Enter Your Mood**: Describe what kind of entertainment you're looking for
