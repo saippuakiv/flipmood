@@ -10,6 +10,8 @@ export default function Home() {
   const [viewMode, setViewMode] = useState<'input' | 'swiping' | 'completed'>(
     'input'
   );
+  const [inputValue, setInputValue] = useState('');
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
   const { handleRecommend, handleShuffle, results, isLoading, currentTag } =
     useRecommendation();
@@ -72,27 +74,42 @@ export default function Home() {
             ) : (
               <div className='max-w-md mx-auto text-center'>
                 {/* enhanced frosted glass effect for cards */}
-                <div className='bg-white/25 backdrop-blur-xl rounded-3xl p-8 border-2 border-white/40 shadow-2xl'>
+                <div className={`bg-white/25 backdrop-blur-xl rounded-3xl p-8 border-2 border-white/40 shadow-2xl transition-all duration-300 ${showSuggestions ? 'pb-4' : ''}`}>
                   {/* <h1 className='text-3xl text-black mb-8 drop-shadow-sm'>
                       mood flow
                     </h1> */}
 
-                  <div className='space-y-4'>
+                  <div className='space-y-6 relative'>
                     <MoodInput
                       placeholder='how are you feeling?'
                       handleEnter={handleGetCards}
                       isLoading={isLoading}
+                      onInputChange={setInputValue}
+                      onSuggestionsVisibility={setShowSuggestions}
                     />
 
-                    <button
-                      onClick={() => handleGetCards()}
-                      disabled={isLoading}
-                      className='w-full bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium drop-shadow-sm px-6 py-4 
-                                 rounded-2xl transition-all duration-300 border border-white/30
-                                 hover:border-white/50 disabled:opacity-50 hover:shadow-lg hover:scale-[1.02]m'
-                    >
-                      get cards
-                    </button>
+                    {!showSuggestions && (
+                      <div className='relative'>
+                        <button
+                          onClick={() => {
+                            if (inputValue.trim()) {
+                              handleGetCards(inputValue);
+                            } else {
+                              handleShuffleCard();
+                            }
+                          }}
+                          disabled={isLoading}
+                          className='w-full bg-gradient-to-r from-white/30 to-white/20 backdrop-blur-md hover:from-white/40 hover:to-white/30 text-white font-semibold drop-shadow-sm px-6 py-4 
+                                     rounded-2xl transition-all duration-300 border border-white/40
+                                     hover:border-white/60 disabled:opacity-50 hover:shadow-xl hover:scale-[1.02] relative overflow-hidden'
+                        >
+                          <span className='relative z-10'>
+                            {inputValue.trim() ? 'get cards' : 'random cards'}
+                          </span>
+                          <div className='absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300' />
+                        </button>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

@@ -272,21 +272,17 @@ export const rawRecommendations = {
   breeze: [
     {
       type: 'song',
-      title: 'Main',
-      subtitle: `Hi'Spec`,
-      reason: 'Lo-fi electronic that drifts like a warm summer breeze.',
-    },
-    {
-      type: 'song',
-      title: 'Chosen',
+      title: 'The Field',
       subtitle: 'Blood Orange',
-      reason: 'Smooth R&B that flows effortlessly like evening air.',
+      reason:
+        'A dreamy blend of indie R&B that creates an intimate,contemplative atmosphere perfect for quiet reflection',
     },
     {
       type: 'song',
-      title: 'Melatonin',
-      subtitle: 'Carter Vail',
-      reason: 'Dreamy and mellow tune for late-night unwinding.',
+      title: 'Heaven Thunder',
+      subtitle: 'Mina Tindle, Sufjan Stevens',
+      reason:
+        'Delicate folk harmonies with ethereal vocals that feel like floating on clouds',
     },
     {
       type: 'song',

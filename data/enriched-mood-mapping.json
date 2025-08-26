@@ -318,28 +318,19 @@
   "breeze": [
     {
       "type": "song",
-      "title": "Main",
-      "subtitle": "Hi'Spec",
-      "reason": "Lo-fi electronic that drifts like a warm summer breeze.",
-      "imageUrl": "https://placehold.co/300x200?text=Main",
-      "previewUrl": null,
-      "spotifyId": null
-    },
-    {
-      "type": "song",
-      "title": "Chosen",
+      "title": "The Field",
       "subtitle": "Blood Orange",
-      "reason": "Smooth R&B that flows effortlessly like evening air.",
-      "imageUrl": "https://placehold.co/300x200?text=Chosen",
+      "reason": "A dreamy blend of indie R&B that creates an intimate,contemplative atmosphere perfect for quiet reflection",
+      "imageUrl": "https://placehold.co/300x200?text=The%20Field",
       "previewUrl": null,
       "spotifyId": null
     },
     {
       "type": "song",
-      "title": "Melatonin",
-      "subtitle": "Carter Vail",
-      "reason": "Dreamy and mellow tune for late-night unwinding.",
-      "imageUrl": "https://placehold.co/300x200?text=Melatonin",
+      "title": "Heaven Thunder",
+      "subtitle": "Mina Tindle, Sufjan Stevens",
+      "reason": "Delicate folk harmonies with ethereal vocals that feel like floating on clouds",
+      "imageUrl": "https://placehold.co/300x200?text=Heaven%20Thunder",
       "previewUrl": null,
       "spotifyId": null
     },

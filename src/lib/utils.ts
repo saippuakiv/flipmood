@@ -11,12 +11,12 @@ export function getTagFromInput(input: string): string {
   const cleaned = input.toLowerCase().trim();
 
   const tagKeywords: { [tag: string]: string[] } = {
-    happy: ['happy', 'joy', 'cheer'],
-    relaxing: ['relax', 'peace', 'unwind', 'slow'],
-    rainy: ['rain', 'sad', 'gray', 'gloom', 'moody'],
-    calm: ['calm', 'quiet', 'still'],
-    focus: ['focus', 'study', 'concentrate'],
-    breeze: ['light', 'ease', 'dance', 'twirl', 'breeze', 'air'],
+    happy: ['happy', 'joy', 'cheer', 'joyful', 'cheerful', 'excited', 'upbeat', 'optimistic', 'content'],
+    relaxing: ['relax', 'peace', 'unwind', 'slow', 'chill', 'peaceful', 'tranquil', 'soothing', 'zen'],
+    rainy: ['rain', 'sad', 'gray', 'gloom', 'moody', 'stormy', 'melancholic', 'grey', 'overcast'],
+    calm: ['calm', 'quiet', 'still', 'serene', 'meditative', 'mindful'],
+    focus: ['focus', 'study', 'concentrate', 'work', 'productive', 'sharp'],
+    breeze: ['light', 'ease', 'dance', 'twirl', 'breeze', 'air', 'gentle', 'airy', 'flowing', 'dreamy'],
   };
 
   for (const [tag, keywords] of Object.entries(tagKeywords)) {

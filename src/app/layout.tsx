@@ -23,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <head>
+        <link rel="preload" href="/bg.jpg" as="image" />
+      </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
