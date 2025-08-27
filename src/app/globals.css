@@ -228,3 +228,12 @@ html {
 .text-shadow-lg {
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

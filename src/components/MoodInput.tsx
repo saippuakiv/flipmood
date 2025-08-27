@@ -162,7 +162,7 @@ export default function MoodInput({
       {showSuggestions && suggestions.length > 0 && (
         <div
           ref={suggestionsRef}
-          className='mt-4 bg-transparent rounded-xl overflow-hidden max-h-48 overflow-y-auto'
+          className='mt-4 bg-transparent rounded-xl overflow-hidden max-h-48 overflow-y-auto scrollbar-hide'
         >
           {suggestions.map((suggestion, index) => (
             <div
