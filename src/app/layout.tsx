@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     'Mood-based curated music and movie discovery via swipeable cards',
   keywords: ['music', 'movies', 'mood', 'discovery', 'swipeable', 'cards'],
   authors: [{ name: 'saippuakiv' }],
+  icons: 'icon.png',
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <link rel="preload" href="/bg.jpg" as="image" />
+        <link rel='preload' href='/bg.jpg' as='image' />
       </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
