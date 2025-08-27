@@ -14,7 +14,9 @@ export const metadata: Metadata = {
     'Mood-based curated music and movie discovery via swipeable cards',
   keywords: ['music', 'movies', 'mood', 'discovery', 'swipeable', 'cards'],
   authors: [{ name: 'saippuakiv' }],
-  icons: 'icon.png',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
