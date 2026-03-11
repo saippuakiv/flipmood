@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import SwipeCards from '@/components/SwipeCards';
 import MoodInput from '@/components/MoodInput';
+import ShaderBackground from '@/components/ShaderBackground';
 import { useRecommendation } from '@/lib/hooks/useRecommendation';
 import { RefreshCw, Shuffle } from 'lucide-react';
 
@@ -40,21 +41,10 @@ export default function Home() {
     await handleShuffle();
   };
 
-  // get classname
-  const getMoodClass = (tag: string) => {
-    const validTags = ['happy', 'relaxing', 'rainy', 'calm', 'focus', 'breeze'];
-    return validTags.includes(tag) ? `tag-${tag}` : 'tag-default';
-  };
-
   return (
     <div className='h-full relative overflow-hidden'>
-      {/* aurora layer */}
-      <div className='aurora absolute inset-0 z-[-10]' />
-      <div
-        className={`aurora-overlay absolute inset-0 z-[-5] ${getMoodClass(
-          currentTag
-        )}`}
-      />
+      {/* 3D Shader Background */}
+      <ShaderBackground mood={currentTag} />
 
       {/* frosted glass */}
       <div className='absolute inset-0 bg-black/5 backdrop-blur-[0.5px] z-0'></div>

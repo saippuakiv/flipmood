@@ -193,7 +193,7 @@ export default function SwipeCard({
           onMouseDown={onSwipe ? handleMouseDown : undefined}
           onTouchStart={onSwipe ? handleTouchStart : undefined}
         >
-          <div className='bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden relative'>
+          <div className='bg-white/10 backdrop-blur-2xl rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300 overflow-hidden relative'>
             {/* Swipe direction indicators */}
             {showLeftIndicator && (
               <div className='absolute inset-0 bg-blue-500/10 border-2 border-blue-500/30 rounded-2xl flex items-center justify-center z-10'>
@@ -234,7 +234,7 @@ export default function SwipeCard({
               </div>
             )}
 
-            <div className='relative h-48 sm:h-64 w-full bg-gray-100 flex items-center justify-center'>
+            <div className='relative h-48 sm:h-64 w-full bg-white/5 backdrop-blur-sm flex items-center justify-center'>
               {recommendation.imageUrl ? (
                 <img
                   src={recommendation.imageUrl}
@@ -251,53 +251,53 @@ export default function SwipeCard({
                 />
               ) : null}
               <div
-                className='flex-col items-center justify-center h-full w-full text-gray-400 absolute inset-0'
+                className='flex-col items-center justify-center h-full w-full text-white/80 absolute inset-0'
                 style={{ display: recommendation.imageUrl ? 'none' : 'flex' }}
               >
                 {recommendation.type === 'song' ? (
-                  <Music size={48} />
+                  <Music size={48} className='drop-shadow-lg' />
                 ) : (
-                  <Film size={48} />
+                  <Film size={48} className='drop-shadow-lg' />
                 )}
-                <span className='mt-3 text-lg text-center px-4 font-medium'>
+                <span className='mt-3 text-lg text-center px-4 font-medium drop-shadow-lg'>
                   {recommendation.title}
                 </span>
-                <span className='text-sm text-gray-400 mt-1'>
+                <span className='text-sm text-white/60 mt-1 drop-shadow-md'>
                   (No cover available)
                 </span>
               </div>
             </div>
 
-            <div className='p-4 sm:p-6'>
+            <div className='p-4 sm:p-6 bg-white/20 backdrop-blur-md'>
               <div className='flex items-center mb-4'>
-                <span className='text-xs font-semibold text-gray-500 uppercase tracking-wider bg-gray-100 px-3 py-1 rounded-xl'>
+                <span className='text-xs font-semibold text-white uppercase tracking-wider bg-white/30 backdrop-blur-sm px-3 py-1 rounded-xl shadow-lg'>
                   {recommendation.type}
                 </span>
               </div>
 
-              <h3 className='font-bold text-gray-900 text-lg sm:text-xl leading-tight mb-3'>
+              <h3 className='font-bold text-white text-lg sm:text-xl leading-tight mb-3 drop-shadow-lg'>
                 {recommendation.title}
               </h3>
 
               {recommendation.subtitle && (
-                <p className='text-gray-600 text-sm sm:text-base mb-4'>
+                <p className='text-white/95 text-sm sm:text-base mb-4 drop-shadow-lg'>
                   {recommendation.subtitle}
                 </p>
               )}
 
               {recommendation.reason && (
-                <div className='border-l-4 border-blue-400 pl-4 mb-4 rounded-r-lg'>
-                  <p className='text-gray-700 italic text-sm leading-relaxed'>
+                <div className='border-l-4 border-white/50 pl-3 mb-4 rounded-r-lg bg-white/15 backdrop-blur-sm py-2'>
+                  <p className='text-white/90 italic text-sm leading-relaxed drop-shadow-md'>
                     "{recommendation.reason}"
                   </p>
                 </div>
               )}
 
               {recommendation.type === 'song' && recommendation.spotifyId && (
-                <div className='mt-4'>
+                <div className='mt-4 rounded-xl overflow-hidden bg-black/20 backdrop-blur-sm p-2'>
                   <iframe
-                    style={{ borderRadius: '16px' }}
-                    src={`https://open.spotify.com/embed/track/${recommendation.spotifyId}?utm_source=generator&theme=0`}
+                    style={{ borderRadius: '12px' }}
+                    src={`https://open.spotify.com/embed/track/${recommendation.spotifyId}?utm_source=generator&theme=1`}
                     width='100%'
                     height='120'
                     className='sm:h-[152px] h-[120px]'

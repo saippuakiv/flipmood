@@ -133,6 +133,9 @@ html {
   background: transparent !important;
 }
 
+/* Old CSS aurora background - replaced with 3D ShaderGradient */
+/* Keeping this commented for reference if needed */
+/*
 .aurora {
   background-image: url('/bg.jpg');
   background-repeat: no-repeat;
@@ -174,47 +177,41 @@ html {
   }
 }
 
-/* Happy - warm golden and orange-pink tones*/
 .aurora-overlay.tag-happy {
   background: linear-gradient(280deg, #ffd700, #ff6b6b, #ff8e53, #ffa502);
-  animation-duration: 5s; /* faster, to show energy */
+  animation-duration: 5s;
 }
 
-/* Relaxing - soft mint green and light purple tones */
 .aurora-overlay.tag-relaxing {
   background: linear-gradient(280deg, #a8e6cf, #88d8c0, #b8a9ff, #e8a8ff);
-  animation-duration: 10s; /* Slower, more soothing */
+  animation-duration: 10s;
 }
 
-/* Rainy - deep blue-gray and purple-gray tones */
 .aurora-overlay.tag-rainy {
   background: linear-gradient(280deg, #74b9ff, #636e72, #6c5ce7, #a4b0be);
-  animation-duration: 10s; /* fits the calm of rainy days */
+  animation-duration: 10s;
 }
 
-/* Calm - light blue-green tones */
 .aurora-overlay.tag-calm {
   background: linear-gradient(280deg, #81ecec, #74b9ff, #a29bfe, #fd79a8);
-  animation-duration: 18s; /* Steady rhythm */
+  animation-duration: 18s;
 }
 
-/* Focus - clear blue and purple tones */
 .aurora-overlay.tag-focus {
   background: linear-gradient(280deg, #0984e3, #6c5ce7, #fd79a8, #fdcb6e);
-  animation-duration: 15s; /* Medium speed, keeps focus */
+  animation-duration: 15s;
 }
 
-/* Breeze - light sky tones */
 .aurora-overlay.tag-breeze {
   background: linear-gradient(280deg, #74b9ff, #0984e3, #00cec9, #55efc4);
-  animation-duration: 10s; /* light and breezy */
+  animation-duration: 10s;
 }
 
-/* Default fallback */
 .aurora-overlay.tag-default {
   background: linear-gradient(280deg, #f2e52c, #acdcac, #99acdc, #3b06ea);
   animation-duration: 15s;
 }
+*/
 
 /* text shadow */
 .text-shadow-sm {
