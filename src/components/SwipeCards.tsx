@@ -19,12 +19,14 @@ type SwipeCardsProps = {
     index: number
   ) => void;
   onComplete?: () => void;
+  mood?: string;
 };
 
 export default function SwipeCards({
   cards,
   onSwipe,
   onComplete,
+  mood,
 }: SwipeCardsProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [viewedCards, setViewedCards] = useState(new Set([0]));
@@ -176,13 +178,14 @@ export default function SwipeCards({
 
           return (
             <SwipeCard
-              key={`card-${actualIndex}-${currentIndex}`} // Include currentIndex to force re-render when navigating
+              key={`card-${actualIndex}-${currentIndex}`}
               recommendation={card}
-              onSwipe={isActive ? handleSwipe : undefined} // Only active card can be swiped
-              onSwipeMove={isActive ? setSwipeDirection : undefined} // Track swipe direction
+              onSwipe={isActive ? handleSwipe : undefined}
+              onSwipeMove={isActive ? setSwipeDirection : undefined}
               style={cardStyle}
               zIndex={zIndex}
-              canSwipeLeft={currentIndex > 0} // Pass boundary information
+              canSwipeLeft={currentIndex > 0}
+              mood={mood}
             />
           );
         })}

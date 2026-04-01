@@ -234,3 +234,13 @@ html {
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
+/* Equalizer animation for music player — bars grow from center */
+@keyframes equalizerMirror {
+  0% {
+    height: 3px;
+  }
+  100% {
+    height: 20px;
+  }
+}

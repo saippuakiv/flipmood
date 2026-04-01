@@ -124,6 +124,7 @@ export default function Home() {
                 cards={results}
                 onSwipe={handleSwipe}
                 onComplete={handleComplete}
+                mood={currentTag}
               />
             )}
           </>

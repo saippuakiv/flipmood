@@ -1,5 +1,7 @@
 import { NextRequest } from 'next/server';
 import { searchTrackFromSpotify } from '@/lib/spotify-api';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const spotifyPreviewFinder = require('spotify-preview-finder');
 
 export async function GET(req: NextRequest) {
   const title = req.nextUrl.searchParams.get('title');
@@ -13,6 +15,19 @@ export async function GET(req: NextRequest) {
 
   const result = await searchTrackFromSpotify(title, artist ?? undefined);
   console.log('Spotify API search result:', result);
+
+  // If official API didn't return a preview URL, try spotify-preview-finder
+  if (result && !result.previewUrl) {
+    try {
+      const query = artist ? `${title} ${artist}` : title;
+      const finderResult = await spotifyPreviewFinder(query, 1);
+      if (finderResult.success && finderResult.results?.[0]?.previewUrls?.[0]) {
+        result.previewUrl = finderResult.results[0].previewUrls[0];
+      }
+    } catch (err) {
+      console.error('spotify-preview-finder error:', err);
+    }
+  }
 
   return Response.json(
     result ?? {
