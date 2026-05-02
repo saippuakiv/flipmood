@@ -8,11 +8,13 @@ interface ShaderBackgroundProps {
 }
 
 // Mood-based gradient configurations
+// Colors are blended versions of the original mood overlays + holographic bg.jpg
+// (simulating mix-blend-mode: lighten with the periwinkle/pink/yellow base image)
 const moodConfigs = {
   happy: {
-    color1: '#FFD700',
-    color2: '#FF6B6B',
-    color3: '#FFA502',
+    color1: '#FFE08A', // gold softened with bg's warm yellow
+    color2: '#F9A8C4', // coral blended with bg's rose pink
+    color3: '#FFCF7B', // orange lightened with bg's yellow
     animate: 'on' as const,
     uSpeed: 0.4,
     uStrength: 2.5,
@@ -24,9 +26,9 @@ const moodConfigs = {
     type: 'plane' as const,
   },
   relaxing: {
-    color1: '#A8E6CF',
-    color2: '#88D8C0',
-    color3: '#B8A9FF',
+    color1: '#C8E8A0', // soft sage green
+    color2: '#E0F0B0', // light lime yellow
+    color3: '#A8D8B0', // meadow green
     animate: 'on' as const,
     uSpeed: 0.2,
     uStrength: 1.5,
@@ -38,9 +40,9 @@ const moodConfigs = {
     type: 'waterPlane' as const,
   },
   rainy: {
-    color1: '#74B9FF',
-    color2: '#636E72',
-    color3: '#6C5CE7',
+    color1: '#B8EDDC', // soft mint
+    color2: '#E8C0FF', // pink-lavender
+    color3: '#F0D0E8', // warm blush pink
     animate: 'on' as const,
     uSpeed: 0.15,
     uStrength: 2.0,
@@ -48,13 +50,13 @@ const moodConfigs = {
     cDistance: 4.5,
     cPolarAngle: 120,
     cAzimuthAngle: 180,
-    brightness: 0.9,
+    brightness: 1.1,
     type: 'waterPlane' as const,
   },
   calm: {
-    color1: '#81ECEC',
-    color2: '#74B9FF',
-    color3: '#A29BFE',
+    color1: '#A0ECEC', // soft cyan
+    color2: '#B0E0D0', // seafoam green
+    color3: '#C8F0E0', // pale aqua mint
     animate: 'on' as const,
     uSpeed: 0.1,
     uStrength: 1.8,
@@ -66,9 +68,9 @@ const moodConfigs = {
     type: 'plane' as const,
   },
   focus: {
-    color1: '#0984E3',
-    color2: '#6C5CE7',
-    color3: '#FD79A8',
+    color1: '#6878D0', // deep indigo
+    color2: '#9070C8', // rich violet
+    color3: '#B868D8', // electric purple
     animate: 'on' as const,
     uSpeed: 0.3,
     uStrength: 2.2,
@@ -80,9 +82,9 @@ const moodConfigs = {
     type: 'plane' as const,
   },
   breeze: {
-    color1: '#74B9FF',
-    color2: '#00CEC9',
-    color3: '#55EFC4',
+    color1: '#90C8FF', // sky blue softened with bg's blue
+    color2: '#60D8D8', // teal lightened with bg's cyan
+    color3: '#80F0D0', // mint lightened with bg's green-yellow
     animate: 'on' as const,
     uSpeed: 0.35,
     uStrength: 2.0,
@@ -94,9 +96,9 @@ const moodConfigs = {
     type: 'waterPlane' as const,
   },
   default: {
-    color1: '#F2E52C',
-    color2: '#ACDCAC',
-    color3: '#99ACDC',
+    color1: '#F2E88C', // yellow softened with bg's warm yellow
+    color2: '#BCDCBC', // sage lightened with bg's green
+    color3: '#A0B8E0', // steel blue blended with bg's periwinkle
     animate: 'on' as const,
     uSpeed: 0.2,
     uStrength: 2.0,
